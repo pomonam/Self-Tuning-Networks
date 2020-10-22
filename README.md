@@ -113,7 +113,7 @@ stn_trainer.train()
 ```
 
 ## Examples
-The repository contains code examples to reproduce results from Delta-STN paper.
+The repository contains examples to reproduce results from the Delta-STN paper.
 
 1. Multilayer Perceptron experiment on MNIST:
 - STN
