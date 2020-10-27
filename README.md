@@ -3,7 +3,7 @@ This repository contains a clean-up code for Self-Tuning Networks (STNs) and Del
 The original repository for Self-Tuning Networks can be found [here](https://github.com/asteroidhouse/self-tuning-networks).
 
 Papers: 
-- [Delta-STN: Efficient Bilevel Optimization for Neural Networks using Structured Response Jacobian](add)
+- [Delta-STN: Efficient Bilevel Optimization for Neural Networks using Structured Response Jacobian](https://arxiv.org/abs/2010.13514)
 - [Self-Tuning Networks: Bilevel Optimization of Hyperparameters using Structured Best-Response Functions](https://arxiv.org/abs/1903.03088)
 
 ## Requirements
@@ -152,13 +152,18 @@ tensorboard --logdir=examples/mlp/runs/
 ## Citation
 To cite this work, please use:
 ```
+@article{bae2020deltastn,
+ title={Delta-STN: Efficient Bilevel Optimization for Neural Networks using Structured Response Jacobians}, 
+ author={Juhan Bae and Roger Grosse},
+ journal={arXiv preprint arXiv:2010.13514},
+ year={2020}
+}
 @article{mackay2019self,
   title={Self-tuning networks: Bilevel optimization of hyperparameters using structured best-response functions},
   author={MacKay, Matthew and Vicol, Paul and Lorraine, Jon and Duvenaud, David and Grosse, Roger},
   journal={arXiv preprint arXiv:1903.03088},
   year={2019}
 }
-#TODO: add citations
 ```
 
 ## Contributors
