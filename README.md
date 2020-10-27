@@ -11,12 +11,12 @@ The code was implemented & tested in Python 3.6. All required modules are listed
 ```
 pip install -r requirements.txt
 ```
-In addition, please install [PyTorch](https://pytorch.org/) version 1.5.1 (or >= 1.5.0). We plan to release JAX version of the code as well.
+In addition, please install [PyTorch](https://pytorch.org/) version 1.5.1 (or >= 1.5.0). We plan to release the JAX version of the code as well.
 
 ## How to use STNs for Custom Projects?
 Self-Tuning Networks can be easily applied to any architectures, datasets, and regularization hyperparameters. Please follow these steps to use STNs for your custom projects.
 
-1. Define your own model inheriting from `StnModel` using layers from `\layers`. Specify how your models interact with hyperparameters. 
+1. Define your model inheriting from `StnModel` using layers from `\layers`. Specify how your models interact with hyperparameters. 
 ```
 class StnTwoLayerMLP(StnModel):
     # Inherit from StnModel.
@@ -64,7 +64,7 @@ class StnTwoLayerMLP(StnModel):
         x = self.layers[2](x, h_net)
         return x
 ```
-2. To tune data augmentation parameters, define your own dataset class. See more examples in `/data`. If you wish to not tune data augmentation parameters, you can simply define a class with these methods:
+2. To tune data augmentation parameters, define your dataset class. See more examples in `/data`. If you wish not to tune data augmentation parameters, you can define a class with these methods:
 ```
 class StnMNIST(datasets.MNIST):
     def __init__(self, *args, **kwargs):
