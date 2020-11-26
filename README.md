@@ -152,11 +152,12 @@ tensorboard --logdir=examples/mlp/runs/
 ## Citation
 To cite this work, please use:
 ```
-@article{bae2020deltastn,
- title={Delta-STN: Efficient Bilevel Optimization for Neural Networks using Structured Response Jacobians}, 
- author={Juhan Bae and Roger Grosse},
- journal={arXiv preprint arXiv:2010.13514},
- year={2020}
+@article{bae2020delta,
+  title={Delta-STN: Efficient Bilevel Optimization for Neural Networks using Structured Response Jacobians},
+  author={Bae, Juhan and Grosse, Roger B},
+  journal={Advances in Neural Information Processing Systems},
+  volume={33},
+  year={2020}
 }
 @article{mackay2019self,
   title={Self-tuning networks: Bilevel optimization of hyperparameters using structured best-response functions},
