@@ -1,5 +1,5 @@
 from torchvision import datasets
-from utils.cutout_utils import Cutout
+from stn.utils.cutout_utils import Cutout
 from torchvision import transforms
 from PIL import Image
 

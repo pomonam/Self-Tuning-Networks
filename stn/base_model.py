@@ -1,6 +1,6 @@
 from abc import ABCMeta
-from layers.linear import *
-from layers.conv2d import *
+from stn.layers.linear import *
+from stn.layers.conv2d import *
 
 import torch.nn as nn
 

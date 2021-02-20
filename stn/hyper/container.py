@@ -1,5 +1,5 @@
 from collections import OrderedDict
-from hyper.transformation import *
+from stn.hyper.transformation import *
 
 import torch.nn.functional as F
 import torch.nn as nn

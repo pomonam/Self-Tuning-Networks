@@ -1,4 +1,4 @@
-from utils.linearize_utils import *
+from stn.utils.linearize_utils import *
 
 
 class BaseStepOptimizer(object):

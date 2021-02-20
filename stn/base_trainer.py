@@ -1,6 +1,6 @@
-from utils.data_utils import next_batch
+from stn.utils.data_utils import next_batch
 from torch.optim.lr_scheduler import *
-from utils.eval_utils import AverageMeter
+from stn.utils.eval_utils import AverageMeter
 
 import wandb
 

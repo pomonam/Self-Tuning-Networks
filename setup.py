@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name="stn",
-    version="1.2",
+    version="1.3",
     packages=["stn", "stn.data", "stn.hyper", "stn.utils", "stn.layers"],
     url="",
     license="",
